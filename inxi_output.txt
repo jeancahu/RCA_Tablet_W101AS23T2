@@ -1,0 +1,27 @@
+$ inxi -SMAGmMBD -c 0
+System:
+  Host: archtablet Kernel: 6.0.8-arch1-1 arch: x86_64 bits: 64 Console: N/A Distro: Arch Linux
+Machine:
+  Type: Portable System: RCA product: W101AS23T2 v: N/A serial: <superuser required>
+  Mobo: RCA model: WT9S10WW05 serial: <superuser required> UEFI: N/A v: BSR4WEUS-S10W05-RCA-V29
+    date: 07/14/2018
+Battery:
+  ID-1: axp288_fuel_gauge charge: 100% condition: N/A
+Memory:
+  RAM: total: 1.86 GiB used: 1.07 GiB (57.5%)
+  RAM Report: permissions: Unable to run dmidecode. Root privileges required.
+Graphics:
+  Device-1: Intel Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Integrated Graphics
+    driver: i915 v: kernel
+  Display: x11 server: X.org v: 1.21.1.4 with: Xwayland v: 22.1.5 driver: X: loaded: intel
+    unloaded: modesetting dri: i965 gpu: i915 tty: 80x40
+  API: OpenGL Message: GL data unavailable in console. Try -G --display
+Audio:
+  Device-1: Intel Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Imaging Unit
+    driver: N/A
+  Sound API: ALSA v: k6.0.8-arch1-1 running: yes
+  Sound Server-1: PipeWire v: 0.3.60 running: yes
+Drives:
+  Local Storage: total: 36.23 GiB used: 9.55 GiB (26.4%)
+  ID-1: /dev/mmcblk1 vendor: BIWIN model: N/A size: 28.81 GiB
+  ID-2: /dev/mmcblk2 vendor: SanDisk model: SD08G size: 7.42 GiB

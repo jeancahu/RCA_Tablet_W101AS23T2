@@ -1,0 +1,6 @@
+## Override the next variable in /etc/default/grub to enable audio
+GRUB_CMDLINE_LINUX_DEFAULT="i915.disable_power_well=0 loglevel=3 quiet snd_hda_intel.dmic_detect=0"
+
+## Install the bootloader in the EFI partition previously mounted
+# grub-install --target=i386-efi --efi-dir=/boot/EFI --bootloader-id=arch-EFI-i386
+
